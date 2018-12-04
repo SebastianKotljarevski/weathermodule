@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4a329d01256366909fb226eb5ad258be",
+    "content-hash": "e66a4e5215c4b93c0adef7184a36d3c4",
     "packages": [
         {
             "name": "anax/anax-flat",
