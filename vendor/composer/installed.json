@@ -1,58 +1,5 @@
 [
     {
-        "name": "anax/anax-flat",
-        "version": "v1.0.12",
-        "version_normalized": "1.0.12.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/canax/anax-flat2.git",
-            "reference": "ce669474765466a6f47010b833649386aa3041b5"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/canax/anax-flat2/zipball/ce669474765466a6f47010b833649386aa3041b5",
-            "reference": "ce669474765466a6f47010b833649386aa3041b5",
-            "shasum": ""
-        },
-        "require": {
-            "anax/anax-lite": "^1.0.24",
-            "anax/page": "^2.0.0@beta",
-            "anax/textfilter": "^1.2.3",
-            "anax/view": "^2.0.0@beta",
-            "mos/cimage": "^0.7.20",
-            "php": "^7.2",
-            "symfony/yaml": "^3.4.0"
-        },
-        "require-dev": {
-            "phpunit/phpunit": "^7"
-        },
-        "time": "2018-09-25T20:46:02+00:00",
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Anax\\": "src/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Mikael Roos",
-                "email": "mos@dbwebb.se"
-            }
-        ],
-        "description": "The Anax Flat framework, content and flat file websites.",
-        "homepage": "https://github.com/canax/anax",
-        "keywords": [
-            "Flat file CMS",
-            "anax",
-            "framework"
-        ]
-    },
-    {
         "name": "anax/anax-lite",
         "version": "v1.0.27",
         "version_normalized": "1.0.27.0",
@@ -106,57 +53,6 @@
             "anax",
             "framework",
             "micro framework"
-        ]
-    },
-    {
-        "name": "anax/anax-ramverk1-me",
-        "version": "v1.0.7",
-        "version_normalized": "1.0.7.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/canax/anax-ramverk1-me.git",
-            "reference": "06f47e5de9be2e07f3d9a1d2e166b9610c745d6c"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/canax/anax-ramverk1-me/zipball/06f47e5de9be2e07f3d9a1d2e166b9610c745d6c",
-            "reference": "06f47e5de9be2e07f3d9a1d2e166b9610c745d6c",
-            "shasum": ""
-        },
-        "require": {
-            "anax/anax-flat": "^1.0.11",
-            "anax/cache": "^2.0.0@beta",
-            "anax/content": "^2.0.0@beta",
-            "anax/database": "^2.0.0",
-            "php": "^7.2"
-        },
-        "require-dev": {
-            "phpunit/phpunit": "^7"
-        },
-        "time": "2018-11-12T16:13:27+00:00",
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Anax\\": "src/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Mikael Roos",
-                "email": "mos@dbwebb.se"
-            }
-        ],
-        "description": "A me page for the ramverk1 course using Anax Flat.",
-        "homepage": "https://github.com/canax/anax-ramverk1-me",
-        "keywords": [
-            "anax",
-            "dbwebb",
-            "ramverk1"
         ]
     },
     {
@@ -410,54 +306,6 @@
             "education",
             "framework",
             "micro",
-            "mvc"
-        ]
-    },
-    {
-        "name": "anax/database",
-        "version": "v2.0.1",
-        "version_normalized": "2.0.1.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/canax/database.git",
-            "reference": "a0d072387f3f41d51e786c3594a1d13339ff2e09"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/canax/database/zipball/a0d072387f3f41d51e786c3594a1d13339ff2e09",
-            "reference": "a0d072387f3f41d51e786c3594a1d13339ff2e09",
-            "shasum": ""
-        },
-        "require": {
-            "php": "^7.2"
-        },
-        "require-dev": {
-            "phpunit/phpunit": "^7"
-        },
-        "time": "2018-11-02T13:06:58+00:00",
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Anax\\": "src/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Mikael Roos",
-                "email": "mos@dbwebb.se"
-            }
-        ],
-        "description": "Anax Database module, to work with databases.",
-        "homepage": "https://dbwebb.se/anax",
-        "keywords": [
-            "boilerplate",
-            "education",
-            "framework",
             "mvc"
         ]
     },
@@ -1140,68 +988,6 @@
             "spaces",
             "typographer",
             "typography"
-        ]
-    },
-    {
-        "name": "mos/cimage",
-        "version": "v0.7.20",
-        "version_normalized": "0.7.20.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/mosbth/cimage.git",
-            "reference": "cd142c58806c8edb6164a12a20e120eb7f436dfb"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/mosbth/cimage/zipball/cd142c58806c8edb6164a12a20e120eb7f436dfb",
-            "reference": "cd142c58806c8edb6164a12a20e120eb7f436dfb",
-            "shasum": ""
-        },
-        "require": {
-            "ext-gd": "*",
-            "php": ">=5.3"
-        },
-        "suggest": {
-            "ext-curl": "*",
-            "ext-exif": "*",
-            "ext-imagick": "*"
-        },
-        "time": "2017-11-06T09:24:47+00:00",
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "files": [
-                "defines.php",
-                "functions.php"
-            ],
-            "classmap": [
-                "CImage.php",
-                "CHttpGet.php",
-                "CRemoteImage.php",
-                "CWhitelist.php",
-                "CAsciiArt.php",
-                "CCache.php",
-                "CFastTrackCache.php"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Mikael Roos",
-                "email": "me@mikaelroos.se",
-                "homepage": "http://mikaelroos.se",
-                "role": "Developer"
-            }
-        ],
-        "description": "Process, scale, resize, crop and filter images.",
-        "homepage": "http://dbwebb.se/opensource/cimage",
-        "keywords": [
-            "gd",
-            "image",
-            "imageprocessing"
         ]
     },
     {
