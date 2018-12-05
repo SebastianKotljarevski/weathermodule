@@ -1,6 +1,6 @@
 {
     "name" : "serbseb/weathermodule",
-    "description": "A me page for the ramverk1 course.",
+    "description": "A module for getting weather using IP",
     "license": "MIT",
     "minimum-stability": "beta",
     "prefer-stable": true,
@@ -14,7 +14,9 @@
         }
     ],
     "require": {
-        "anax/anax-ramverk1-me": "^1.0.0"
+        "anax/anax-ramverk1-me": "^1.0.0",
+        "php": "^5.6.37 || ^7.0",
+
     },
     "require-dev": {
         "phpunit/phpunit": "^7.4"
