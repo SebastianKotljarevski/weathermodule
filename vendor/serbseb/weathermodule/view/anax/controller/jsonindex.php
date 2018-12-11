@@ -1,2 +1,0 @@
-<?php
-namespace Anax\View;
