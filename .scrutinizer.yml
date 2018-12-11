@@ -5,17 +5,16 @@ filter:
     excluded_paths: [vendor/*, test/*]
 
 build:
-    nodes:
-        analysis:
-            tests:
-                override:
-                    - php-scrutinizer-run
 
-        tests-and-coverage:
-            tests:
-                override:
-                    -
-                        command: "make testtravis"
-                        coverage:
-                            file: "build/coverage.clover"
-                            format: "php-clover"
+    dependencies:
+        before:
+            -
+                command: "mkdir build"
+
+    tests:
+        override:
+            -
+                command: "phpunit --configuration .phpunit.xml"
+                coverage:
+                    file: "build/coverage.clover"
+                    format: "php-clover"
