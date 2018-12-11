@@ -1,4 +1,8 @@
 [![Build Status](https://travis-ci.org/SebastianKotljarevski/weathermodule.svg?branch=master)](https://travis-ci.org/SebastianKotljarevski/weathermodule)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/SebastianKotljarevski/weathermodule/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/SebastianKotljarevski/weathermodule/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/SebastianKotljarevski/weathermodule/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/SebastianKotljarevski/weathermodule/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/SebastianKotljarevski/weathermodule/badges/build.png?b=master)](https://scrutinizer-ci.com/g/SebastianKotljarevski/weathermodule/build-status/master)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/SebastianKotljarevski/weathermodule/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
 
 Installationsguide till serbseb/weathermodule via composer
 
