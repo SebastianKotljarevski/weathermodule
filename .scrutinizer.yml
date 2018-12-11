@@ -6,11 +6,6 @@ filter:
 
 build:
 
-    dependencies:
-        before:
-            -
-                command: ""
-
     tests:
         override:
             -
