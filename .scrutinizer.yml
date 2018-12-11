@@ -6,6 +6,11 @@ filter:
 
 build:
 
+    dependencies:
+        before:
+            -
+                command: "rm -rf build mkdir build"
+
     tests:
         override:
             -
