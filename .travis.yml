@@ -19,7 +19,7 @@ before_script:
     - make install check
 
 script:
-    - make test
+    - make testtravis
 
 # notifications:
 #     irc: "irc.freenode.org#dbwebb"

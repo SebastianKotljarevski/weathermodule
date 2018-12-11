@@ -63,7 +63,8 @@ container ?= latest
 
 BIN     := .bin
 #PHPUNIT := $(BIN)/phpunit
-PHPUNIT := php vendor/bin/phpunit
+PHPUNITTRAVIS := php vendor/bin/phpunit
+PHPUNIT := vendor/bin/phpunit
 PHPLOC 	:= $(BIN)/phploc
 PHPCS   := $(BIN)/phpcs
 PHPCBF  := $(BIN)/phpcbf
@@ -119,6 +120,14 @@ check: check-tools-bash check-tools-php check-docker
 # target: test                    - Run all tests.
 .PHONY:  test
 test: phpunit phpcs phpmd phploc behat shellcheck bats
+	@$(call HELPTEXT,$@)
+	composer validate
+
+
+
+# target: testtravis                    - Run all tests.
+.PHONY:  testtravis
+testtravis: phpunittravis phpcs phpmd phploc behat shellcheck bats
 	@$(call HELPTEXT,$@)
 	composer validate
 
