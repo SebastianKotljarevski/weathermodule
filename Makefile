@@ -63,7 +63,7 @@ container ?= latest
 
 BIN     := .bin
 #PHPUNIT := $(BIN)/phpunit
-PHPUNIT := vendor/bin/phpunit
+PHPUNIT := php vendor/bin/phpunit
 PHPLOC 	:= $(BIN)/phploc
 PHPCS   := $(BIN)/phpcs
 PHPCBF  := $(BIN)/phpcbf
