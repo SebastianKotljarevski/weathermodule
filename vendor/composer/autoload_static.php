@@ -275,6 +275,7 @@ class ComposerStaticInit07592f157a2a60a07e07b940797b82f5
         'PHPUnit\\Runner\\AfterSuccessfulTestHook' => __DIR__ . '/..' . '/phpunit/phpunit/src/Runner/Hook/AfterSuccessfulTestHook.php',
         'PHPUnit\\Runner\\AfterTestErrorHook' => __DIR__ . '/..' . '/phpunit/phpunit/src/Runner/Hook/AfterTestErrorHook.php',
         'PHPUnit\\Runner\\AfterTestFailureHook' => __DIR__ . '/..' . '/phpunit/phpunit/src/Runner/Hook/AfterTestFailureHook.php',
+        'PHPUnit\\Runner\\AfterTestHook' => __DIR__ . '/..' . '/phpunit/phpunit/src/Runner/Hook/AfterTestHook.php',
         'PHPUnit\\Runner\\AfterTestWarningHook' => __DIR__ . '/..' . '/phpunit/phpunit/src/Runner/Hook/AfterTestWarningHook.php',
         'PHPUnit\\Runner\\BaseTestRunner' => __DIR__ . '/..' . '/phpunit/phpunit/src/Runner/BaseTestRunner.php',
         'PHPUnit\\Runner\\BeforeFirstTestHook' => __DIR__ . '/..' . '/phpunit/phpunit/src/Runner/Hook/BeforeFirstTestHook.php',
