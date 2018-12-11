@@ -9,7 +9,7 @@ build:
     dependencies:
         before:
             -
-                command: "mkdir build"
+                command: "rm build mkdir build"
 
     tests:
         override:
