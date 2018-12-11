@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/SebastianKotljarevski/weathermodule.svg?branch=master)](https://travis-ci.org/SebastianKotljarevski/weathermodule)
+
 Installationsguide till serbseb/weathermodule via composer
 
 $composer require serbseb/weathermodule
