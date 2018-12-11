@@ -63,7 +63,6 @@ container ?= latest
 
 BIN     := .bin
 #PHPUNIT := $(BIN)/phpunit
-PHPUNITTRAVIS := php vendor/bin/phpunit
 PHPUNIT := vendor/bin/phpunit
 PHPLOC 	:= $(BIN)/phploc
 PHPCS   := $(BIN)/phpcs
@@ -127,7 +126,8 @@ test: phpunit phpcs phpmd phploc behat shellcheck bats
 
 # target: testtravis                    - Run all tests.
 .PHONY:  testtravis
-testtravis: phpunittravis phpcs phpmd phploc behat shellcheck bats
+testtravis: phpcs phpmd phploc behat shellcheck bats
+	php vendor/bin/phpunit
 	@$(call HELPTEXT,$@)
 	composer validate
 
