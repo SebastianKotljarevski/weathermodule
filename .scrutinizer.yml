@@ -15,7 +15,7 @@ build:
             tests:
                 override:
                     -
-                        command: "make phpunittravis"
+                        command: "make testtravis"
                         coverage:
                             file: "build/coverage.clover"
-                            format: "clover"
+                            format: "php-clover"
